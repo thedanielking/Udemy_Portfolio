@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main aria-label="main">
+        <header class="hero" aria-label="header">
+
+            <div class="hero-top">
+                <p>Daniel King</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="hero-center">
+                <img src="./images/profile.jpg"  class="hero-image" alt="Photo of me">
+                <h1>Frontend Developer</h1>
+            </div>
+
+            <div class="hero-bottom">
+                <p><strong>Hi</strong>, my name is Daniel king and I am a Computer Science student of Bowen University, Nigeria</p>
+                <p><b>My skillset:</b> HTML, CSS, Python.</p>
+                <a href="./resume.html" target="blank"><button class="resume">My Resume</button></a>
+            </div>
+        </header>
+
+        <section class="projects" id="projects">
+            <h2>my projects</h2>
+            <div class="projects_container">
+                <div class="col">
+                    <img src="./images/agency.png">
+                    <div>
+                        <h3>Agency Page</h3>
+                        <p>I created the landing page for an agency. Making sure it suits the clients to their desire</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/four-card.jpg">
+                    <div>
+                        <h3>Specialisation Section</h3>
+                        <p>I was tasked to create a four card feature for a website to emphasize their specialisation.Ensuring it's simple and concise.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/landing-page.jpg">
+                    <div>
+                        <h3>Huddle Page</h3>
+                        <p>I created the landing page for Huddle.com. Detailing their logo and "try it for free" subscription.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>about me</h2>
+            <div class="about_container">
+                <p>
+                    "I am more of a two-edge sword. I have alot of hobbies. I have studied in 8 schools throughout my life and I have lived to enjoy each of them. I am really open to computer science because it gives me the drive to create a solution for a problem without too much fuss.""
+                </p>
+                <img src="./images/profile2.jpg">
+            </div>
+        </section>
+
+        <footer id="footer">
+            <h2>Looking to connect?</h2>
+            <div class="footer_container">
+                <div>
+                    <h3>send a message</h3>
+                    <form>
+                        <label>Name:</label>
+                        <input type="text"><br>
+                        <label>Email:</label>
+                        <input type="email"><br>
+                        <label>Message:</label>
+                        <input type="text"><br>
+
+                        <button>Submit</button>
+                    </form>
+                </div>
+                <p>&copy;Dkingmedia.com</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
